@@ -1,0 +1,7 @@
+_site
+.sass-cache
+.jekyll-metadata
+firebase-debug.log
+*.log
+ /index.html
+.DS_Store

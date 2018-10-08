@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+  <link rel="icon" type="image/png" href="/assets/img/logo.png"/>
+	<title>CECAS Spark</title>
+	
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/common.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+</head>
+
+<body id="body">
+  <div id="navbar">
+  </div>
+
+  <div class="container">
+    <img src="/assets/img/banner.JPG" class="img-fluid" alt="Responsive image">
+  </div>
+
+  <!-- Start About -->
+  <section id="about">
+    <div class="container">
+      <h1 class="section-header">Ignite Your Spark</h1>
+      <p>
+        The CECAS Spark Challenge is Clemson's premier pitch competiion designed specifically for CECAS students. Submit your idea, buisiness, product, or service for funding and a change to visit Silicon Valley!
+      </p>
+    </div>
+  </section>
+  <!-- End About -->
+
+
+  <!-- Start Timeline -->
+
+  <section id=timeline>
+  <h1>How to Enter Spark</h1>
+  <div class="demo-card-wrapper">
+    <div class="demo-card demo-card--step1">
+      <div class="head">
+        <div class="number-box">
+          <span>01</span>
+        </div>
+        <h2><span class="small">Subtitle</span> Technology</h2>
+      </div>
+      <div class="body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+        <img src="http://placehold.it/1000x500" alt="Graphic">
+      </div>
+    </div>
+
+    <div class="demo-card demo-card--step2">
+      <div class="head">
+        <div class="number-box">
+          <span>02</span>
+        </div>
+        <h2><span class="small">Subtitle</span> Confidence</h2>
+      </div>
+      <div class="body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+        <img src="http://placehold.it/1000x500" alt="Graphic">
+      </div>
+    </div>
+
+    <div class="demo-card demo-card--step3">
+      <div class="head">
+        <div class="number-box">
+          <span>03</span>
+        </div>
+        <h2><span class="small">Subtitle</span> Adaptation</h2>
+      </div>
+      <div class="body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+        <img src="http://placehold.it/1000x500" alt="Graphic">
+      </div>
+    </div>
+
+    <div class="demo-card demo-card--step4">
+      <div class="head">
+        <div class="number-box">
+          <span>04</span>
+        </div>
+        <h2><span class="small">Subtitle</span> Consistency</h2>
+      </div>
+      <div class="body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+        <img src="http://placehold.it/1000x500" alt="Graphic">
+      </div>
+    </div>
+
+    <div class="demo-card demo-card--step5">
+      <div class="head">
+        <div class="number-box">
+          <span>05</span>
+        </div>
+        <h2><span class="small">Subtitle</span> Conversion</h2>
+      </div>
+      <div class="body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+        <img src="http://placehold.it/1000x500" alt="Graphic">
+      </div>
+    </div>
+    
+  </div>
+</section>
+  
+  <!-- End Timeline -->
+
+  <div id="footer">
+  </div>
+
+  
+  <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+  <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBkLkBLpbi0u8jgNoZOFvh8_kCv4xh2Ju8",
+    authDomain: "cecasspark.firebaseapp.com",
+    databaseURL: "https://cecasspark.firebaseio.com",
+    projectId: "cecasspark",
+    storageBucket: "",
+    messagingSenderId: "173370275942"
+  };
+  firebase.initializeApp(config);
+  </script>
+
+  <!-- Core Javascript Files -->
+  <script src="https://www.gstatic.com/firebasejs/4.1.5/firebase.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  <script src="assets/js/template-builder.js"></script>
+
+  <!-- Page Building -->
+  <script type="text/javascript">
+    buildNavbar();
+    setTimeout(function(){
+      buildFooter();
+    }, 10);
+  </script>
+
+</body>
+
+</html>
