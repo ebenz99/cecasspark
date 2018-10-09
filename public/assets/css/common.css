@@ -10,12 +10,28 @@
 #about {
   max-width: 90%;
   margin: auto;
+  margin-bottom: 3rem;
 }
 
 #about .container{
   background:#3A4958;
   color:#FFFFFF;
   padding: 2rem 1rem;
+}
+
+#prizes * {
+  text-align: center;
+}
+
+#rulesRegs h1 {
+  text-align: center;
+}
+
+#applyButton {
+  width: 8rem;
+  display: block;
+  margin: auto;
+  color: #3A4958;
 }
 
 /* Timeline */
@@ -78,6 +94,8 @@
 
 #timeline {
   padding: 3rem 0rem;
+  max-width: 90%;
+  margin: auto;
 }
 #timeline h1 {
   text-align: center;
@@ -192,14 +210,12 @@
   font-size: 1.3rem;
   font-weight: inherit;
   letter-spacing: 2px;
-  margin: 0;
+  margin: .5rem;
   padding-bottom: 6px;
-  line-height: 1rem;
 }
 @media (min-width: 480px) {
   #timeline .demo-card .head h2 {
     font-size: 165%;
-    line-height: 1.2rem;
   }
 }
 #timeline .demo-card .head h2 span {
@@ -233,34 +249,34 @@
   width: 100%;
 }
 #timeline .demo-card--step1 {
-  background-color: #46b8e9;
+  background-color: #3A4958;
 }
 #timeline .demo-card--step1 .head::after {
-  border-color: #46b8e9;
+  border-color: #3A4958;
 }
 #timeline .demo-card--step2 {
-  background-color: #3ee9d1;
+  background-color: #86898C;
 }
 #timeline .demo-card--step2 .head::after {
-  border-color: #3ee9d1;
+  border-color: #86898C;
 }
 #timeline .demo-card--step3 {
-  background-color: #ce43eb;
+  background-color: #3A4958;
 }
 #timeline .demo-card--step3 .head::after {
-  border-color: #ce43eb;
+  border-color: #3A4958;
 }
 #timeline .demo-card--step4 {
-  background-color: #4d92eb;
+  background-color: #86898C;
 }
 #timeline .demo-card--step4 .head::after {
-  border-color: #4d92eb;
+  border-color: #86898C;
 }
 #timeline .demo-card--step5 {
-  background-color: #46b8e9;
+  background-color: #3A4958;
 }
 #timeline .demo-card--step5 .head::after {
-  border-color: #46b8e9;
+  border-color: #3A4958;
 }
 
 
