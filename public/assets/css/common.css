@@ -15,25 +15,32 @@
 #about h1 {
   font-size: 3.5rem;
 }
-
 #about .container{
   background:#3A4958;
   color:#FFFFFF;
-  padding: 2rem 1rem;
+  padding: 2rem 2rem;
 }
 
-#prizes * {
-  text-align: center;
-}
-#prizes h1 {
-  font-size: 3.5rem;
-}
-#prizes h2 {
-  font-size: 2rem;
+
+#prizes {
+  margin-bottom: 2rem;
 }
 #rulesRegs h1 {
   text-align: center;
+  font-size: 3.5rem;
 }
+#rulesRegs h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+#rulesRegs p {
+  text-align: center;
+  font-size: 1.3rem;
+}
+#rulesRegs ul {
+  font-size: 1.3rem;
+}
+
 
 #applyButton {
   width: 8rem;
