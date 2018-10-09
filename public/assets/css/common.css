@@ -12,6 +12,9 @@
   margin: auto;
   margin-bottom: 3rem;
 }
+#about h1 {
+  font-size: 3.5rem;
+}
 
 #about .container{
   background:#3A4958;
@@ -22,7 +25,12 @@
 #prizes * {
   text-align: center;
 }
-
+#prizes h1 {
+  font-size: 3.5rem;
+}
+#prizes h2 {
+  font-size: 2rem;
+}
 #rulesRegs h1 {
   text-align: center;
 }
@@ -48,11 +56,11 @@
 
 
 .button {
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-    border-radius: 6px;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border-radius: 6px;
 }
 
 /* Header and Footer */
