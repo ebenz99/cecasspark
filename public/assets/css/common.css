@@ -13,7 +13,12 @@
   margin-bottom: 3rem;
 }
 #about h1 {
-  font-size: 3.5rem;
+  font-size: 2rem;
+}
+@media (min-width: 480px){
+  #about h1 {
+    font-size: 3.5rem;
+  }
 }
 #about .container{
   background:#3A4958;
@@ -41,12 +46,34 @@
   font-size: 1.3rem;
 }
 
+#sponsors h1 {
+  text-align: center;
+  font-size: 3.5rem;
+}
+#sponsors h2 {
+  text-align: center;
+  font-size: 2rem;
+}
 
-#applyButton {
+
+.applyButton {
   width: 8rem;
   display: block;
   margin: auto;
-  color: #3A4958;
+  color: #ffffff !important;
+  background-color: #3A4958;
+}
+.applyButtonInv {
+  width: 8rem;
+  display: block;
+  margin: auto;
+  color: #3A4958 !important; 
+  background-color: #ffffff;
+}
+
+
+.logo-img {
+  vertical-align: center;
 }
 
 
@@ -59,8 +86,6 @@
   border-radius: 1rem;
   border-collapse: separate;
 }
-
-
 
 .button {
   margin: 0;
